@@ -1,0 +1,65 @@
+body{
+    background-color: #fff;
+}
+body,div,p{
+    font-family: 'DejaVu Sans Condensed';
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 106mm;
+    /*border: 1px solid black;*/
+    margin: 0 auto 0;
+    padding-top: 5mm;
+}
+h1{
+    text-align: center;
+    margin-top: 11mm;
+    /*font-family: 'DejaVu Sans Condensed';*/
+    /*font-family:"UbuntuBold";*/
+    /*font-weight: bold;*/
+    font-size:3.56mm;
+    text-transform: uppercase;
+}
+.divider{
+    width: 61mm;
+    margin:0 auto 10mm;
+    height: 0.3mm;
+    background-color: #eb2127;
+}
+span.desc{
+    text-align: left;
+    background-color: #fff;
+    color: #6d6d6d;
+    font-size:2.37mm;
+}
+p{
+    width: 100%;
+    /*height: 7mm;*/
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    /*height: 40px;;*/
+    background-color: #f7f8f8;
+    color: #000;
+    font-size: 7.68pt;
+}
+.three{
+    float: left;
+    width: 30mm;
+}
+.three-center{
+    float: left;
+    width: 30mm;
+    margin:auto;
+}
+.three-last{
+    float: right;
+    width: 30mm;
+}
+p.value,div>div{
+    margin-bottom:2.5mm;
+}
+p.value{
+    padding-left: 10px;
+    background-color: #f7f8f8;
+}
